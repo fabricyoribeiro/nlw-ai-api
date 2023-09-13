@@ -1,0 +1,21 @@
+pnpm init
+
+pnpm i typescript @types/node tsx -D
+
+pnpm i fastify
+
+pnpm i prisma -D
+
+pnpm prisma migrate dev
+
+pnpm prisma studio
+
+npm i @fastify/multipart
+
+pnpm i zod
+
+pnpm i openai
+
+pnpm i dotenv -D
+
+pnpm i @fastify/cors
